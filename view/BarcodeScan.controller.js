@@ -25,8 +25,8 @@ sap.ui.controller("view.BarcodeScan", {
 					OData.request ({
 			             requestUri: "http://sapgatewayserver.com/sap/opu/odata/sap/ZGW_MATERIAL_SRV/Materials('" + result.text +"')",
 			             method: "GET",
-						 user : 'KUMARR96',
-			             password : 'Pfizer321',
+						 user : 'user',
+			             password : 'password',
 			             headers: {     
 			            	 	"X-Requested-With": "XMLHttpRequest",
 			                    "Content-Type": "application/atom+xml",
